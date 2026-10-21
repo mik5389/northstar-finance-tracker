@@ -32,3 +32,29 @@ input:focus,select:focus{outline:2px solid #e9bfd6}
 .login-card{box-shadow:0 20px 80px #583f5a1c}
 .footer,.empty{color:#8a8aa0}
 .tab{border-color:#eadfe9;background:#fff;color:#76566e}.tab:hover{background:#f9eef4}.tab.active{background:#f8e0eb;border-color:#f8e0eb;color:#864b71}
+
+/* Northstar Bloom flat pastel refinement: no gradients, accessible contrast. */
+:root{color:#202b46;background:#faf9fc;color-scheme:light}
+body,.login{background:#faf9fc;color:#202b46}
+.hero{background:#f6e5ef;color:#202b46;border:1px solid #e6d1df;box-shadow:none}
+.hero .muted{color:#56536f}
+.hero .rate{background:#fffafc;border:1px solid #ddc8d8;color:#202b46}
+.panel{box-shadow:none;border-color:#e2dfe9}
+.stats>.panel:nth-child(5n+1),.summary-cards>.panel:nth-child(5n+1){background:#f9e2ec}
+.stats>.panel:nth-child(5n+2),.summary-cards>.panel:nth-child(5n+2){background:#e1f0e8}
+.stats>.panel:nth-child(5n+3),.summary-cards>.panel:nth-child(5n+3){background:#e3edfc}
+.stats>.panel:nth-child(5n+4),.summary-cards>.panel:nth-child(5n+4){background:#eee6f9}
+.stats>.panel:nth-child(5n),.summary-cards>.panel:nth-child(5n){background:#fcebdc}
+.muted,.stat-label,.stat-foot,.budget-sub,.account small,.login-card p,.footer,.empty{color:#525a72}
+th{color:#4e5770}
+.brand{color:#824064}.brand small{color:#555d72}
+.btn{background:#88466e;color:#fff}.btn:hover{background:#6d3156}
+.btn.secondary{background:#f3e0ec;color:#6b3155}.btn.ghost{color:#6b3155}
+.tab{color:#633c58;border-color:#d9c7d5}.tab.active{background:#f3dce9;border-color:#b980a3;color:#633151}
+.pill{background:#f3dce9;color:#71385d}
+.expense{color:#96314f}.income{color:#24634d}
+select,input{color:#202b46;border-color:#b8b4c6}
+select:focus-visible,input:focus-visible,.btn:focus-visible,.tab:focus-visible{outline:3px solid #7952a0;outline-offset:2px}
+.notice{background:#e4f2e9;color:#245b43;border-color:#a9cfb8}
+.error{background:#fce8ed;color:#852d47;border-color:#e6aabd}
+.login-card{box-shadow:none;border:1px solid #e2dfe9}
